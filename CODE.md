@@ -26,7 +26,7 @@ MainTab:AddButton({
 })
 
 MainTab:AddButton({
-	Name = "Universal Hub Loader",
+	Name = "Universal Hub",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/boronide", true))()
   	end    
@@ -71,6 +71,13 @@ MainTab:AddButton({
 	Name = "Gelatek Hub",
 	Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/QSAjtvyW"))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Simplity Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplityv2/main/main"))()
   	end    
 })
 
